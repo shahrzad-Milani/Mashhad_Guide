@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Forum | Mashhad Website</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<header>
+  <nav>
+    <ul class="hover">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="attractions.html">Things to Do</a></li>
+      <li><a href="food.html">Eat & Drink</a></li>
+      <li><a href="contact.html">Contact & Forum</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <!-- Left Section-->
+  <section class="contact-info">
+    <div class="contact-info-inside">
+      <h2>Contact Information</h2>
+      <p>If you have any questions or feedback, feel free to get in touch with us.</p>
+      <address>
+        <div class="info-item">
+          <h3>Address:</h3>
+          <p>Pirouzi 86, Mashhad, Iran</p>
+        </div>
+        <div class="info-item">
+          <h3>Phone:</h3>
+          <p>+98 915 915 1097</p>
+        </div>
+        <div class="info-item">
+          <h3>Email:</h3>
+          <p>info@mashhad.website</p>
+        </div>
+      </address>
+    </div>
+
+    <div class="contact-info-inside">
+      <h3>Listen:</h3>
+      <audio controls>
+        <source src="audio/shajarian.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="contact-info-inside">
+      <h3>Kooh Sangi</h3>
+      <img src="images/koohsangi.gif" alt="Kooh Sangi" style="max-height:80vh; max-width:100%; height:auto; width:auto;" />
+    </div>
+
+    <div class="contact-info-inside">
+      <h3>External Links:</h3>
+      <div class="external-links">
+        <a href="https://www.iran-booking.com/en/province/mashhad" target="_blank" rel="noopener noreferrer">Book Hotels in Mashhad</a>
+      </div>
+      <div class="external-links">
+        <a href="https://persiangood.com/recipes/shole-mashhadi/" target="_blank" rel="noopener noreferrer">Sholeh Mashhadi Recipe</a>
+      </div>
+      <div class="external-links">
+        <a href="https://artmashhadevent.ir/en/" target="_blank" rel="noopener noreferrer">Upcoming Art Events</a>
+      </div>
+      <div class="external-links">
+        <a href="https://karoon.com/fal-e-hafez" target="_blank" rel="noopener noreferrer">Divination With Hafez’s Poetry</a>
+      </div>
+      <div class="external-links">
+        <a href="https://www.247backgammon.org/" target="_blank" rel="noopener noreferrer">Play Backgammon Online</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Right Section-->
+  <section class="forum-section">
+    <h2>Mini Forum</h2>
+
+    <!-- Static Contact Form (does not submit anywhere) -->
+    <section class="contact-form">
+      <form class="forum-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name" />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email" />
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="messageContent" rows="4" placeholder="Ask questions, share thoughts..." required></textarea>
+
+        <button type="button">Post</button>
+      </form>
+    </section>
+
+    <!-- Static example messages -->
+    <div class="forum-messages">
+      <h3>Messages Posted</h3>
+
+      <div class="message">
+        <div class="message-item">
+          <p><strong>Ali</strong> posted at 2025-07-02<br />
+            This website is very helpful, thank you!</p>
+        </div>
+      </div>
+
+      <div class="message">
+        <div class="message-item">
+          <p><strong>Sara</strong> posted at 2024-07-08<br />
+            Where can I find more local food tips?</p>
+        </div>
+        <div class="replies">
+          <div class="message-item reply">
+            <p><strong>Reza</strong> replied at 2024-07-09<br />
+              Check out the "Eat & Drink" page here! Also, try asking locals at the bazaar for hidden gems.</p>
+          </div>
+          <div class="message-item reply">
+            <p><strong>Maryam</strong> replied at 2024-07-10<br />
+              I recommend visiting the food stalls near Kooh Sangi park. They have amazing traditional snacks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 mashhad.website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
